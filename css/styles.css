@@ -8,13 +8,124 @@
 }
 /*   LAPTOP   */
 @media all and (min-width: 1025px) {
+    .grid-container {
+        display: grid;
+    }
+    .grid-item-0 {
+
+    }
+    .grid-item-1 {
+
+    }
+    .grid-item-2 {
+        
+    }
+    .grid-item-3 {
+        
+    }
+    .grid-item-4 {
+        
+    }
+    .grid-item-5 {
+        
+    }
+    .grid-item-6 {
+        
+    }
+    .grid-item-7 {
+        
+    }
+    .grid-item-8 {
+        
+    }
+    .grid-item-9 {
+        
+    }
+    .grid-item-10 {
+        
+    }
+
 
 }
 /*   TABLET   */
 @media all and (min-width: 601px) and (max-width: 1024px) {
+    .grid-container {
+        display: grid;
+    }
+    .grid-item-0 {
+
+    }
+    .grid-item-1 {
+
+    }
+    .grid-item-2 {
+        
+    }
+    .grid-item-3 {
+        
+    }
+    .grid-item-4 {
+        
+    }
+    .grid-item-5 {
+        
+    }
+    .grid-item-6 {
+        
+    }
+    .grid-item-7 {
+        
+    }
+    .grid-item-8 {
+        
+    }
+    .grid-item-9 {
+        
+    }
+    .grid-item-10 {
+        
+    }
+
 
 }
 /*   PHONE   */
 @media all and (max-width: 600px) {
-    
+    .grid-container {
+        display: grid;
+    }
+    .grid-item-0 {
+
+    }
+    .grid-item-1 {
+
+    }
+    .grid-item-2 {
+        
+    }
+    .grid-item-3 {
+        
+    }
+    .grid-item-4 {
+        
+    }
+    .grid-item-5 {
+        
+    }
+    .grid-item-6 {
+        
+    }
+    .grid-item-7 {
+        
+    }
+    .grid-item-8 {
+        
+    }
+    .grid-item-9 {
+        
+    }
+    .grid-item-10 {
+        
+    }
+
+
 }

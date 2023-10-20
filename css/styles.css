@@ -102,9 +102,47 @@
 
 /*   TABLET   */
 @media all and (min-width: 601px) and (max-width: 1024px) {
+    #page {
+        max-width: 1024px;
+    }
     .grid-container {
         display: grid;
+        grid-template-columns: 4, 1fr;
     }
+
+    header {
+        grid-column: 1/5;
+        grid-row: 1/2;
+        padding-bottom: 20px;
+    }
+
+    /*logo*/
+    #logo img {
+        position: fixed;
+        width: 150px;
+        margin: 0px;
+        padding: 5px;
+    }
+    
+    /*text-logo*/
+    #textlogo img {
+        margin-left: 150px;
+        padding: 20px;
+        width: 60%;
+        max-width: 800px;
+    }
+
+    /*nav*/
+    #nav li {
+        text-decoration: none;
+        display: inline;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 150px;
+    }
+
 
     .grid-item-0 {}
 

@@ -13,6 +13,7 @@
     }
 
     .grid-container {
+        background-color: #eeeeee;
         display: grid;
         grid-template-columns: 4, 1fr;
     }
@@ -106,7 +107,7 @@
 
     .grid-container {
         width: 100%;
-        background-color: #D9D9D9;
+        background-color: #eeeeee;
         display: grid;
         grid-template-columns: 4, 1fr;
     }
@@ -120,16 +121,15 @@
     /*logo*/
     #logo img {
         position: absolute;
-        width: 150px;
-        margin: 0px;
-        padding: 5px;
+        width: 17%;
+        margin: 2% 0% 0% 2%;
     }
 
     /*text-logo*/
     #textlogo img {
-        margin-left: 150px;
-        padding: 20px;
-        width: 60%;
+        margin-left: 20%;
+        padding: 5% 5% 2% 2%;
+        width: 65%;
         max-width: 800px;
     }
 
@@ -143,16 +143,16 @@
         margin: 5%;
     }
     .grid-item-3 {
-        margin-left: 150px;
+        margin-left: 25%;
 
     }
 
     #video img {
         width: 70%;
+        margin: 0% 15% 2% 15%
     }
 
     .grid-item-4 {
-        margin-top: 40px;
         text-align: center;
         grid-column: 1/5;
         grid-row: 2/3;
@@ -173,8 +173,8 @@
     }
 
     .grid-item-7 {
-        margin: 8% 27% 16% 10%;
-        padding: 4%;
+        margin: 10% 35% 20% 0%;
+        padding: 2px;
         background-color: white;
         grid-column: 3/5;
         grid-row: 3/4;
@@ -199,7 +199,7 @@
 /*   PHONE   */
 @media all and (max-width: 600px) {
     .grid-container {
-        background-color: #D9D9D9;
+        background-color: #eeeeee;
         display: grid;
         grid-template-columns: 2, 1fr;
         width: 100%;

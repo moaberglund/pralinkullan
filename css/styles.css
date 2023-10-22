@@ -142,9 +142,9 @@
         padding: 1%;
         margin: 5%;
     }
+
     .grid-item-3 {
         margin-left: 25%;
-
     }
 
     #video img {
@@ -172,10 +172,13 @@
         grid-row: 3/4;
     }
 
-    .grid-item-7 {
-        margin: 10% 35% 20% 0%;
+    #text p {
+        margin: 10% 30% 20% 5%;
         padding: 2px;
         background-color: white;
+    }
+
+    .grid-item-7 {
         grid-column: 3/5;
         grid-row: 3/4;
     }

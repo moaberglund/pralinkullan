@@ -15,7 +15,7 @@
     .grid-container {
         background-color: #eeeeee;
         display: grid;
-        grid-template-columns: 6, 1fr;
+        grid-template-columns: auto;
     }
 
     header {
@@ -31,6 +31,7 @@
         /*fast positionering*/
         position: absolute;
         width: 12%;
+        max-width: 180px;
         margin: 0.8% 0% 0.8% 0.8%;
         padding: 5px;
     }
@@ -94,7 +95,6 @@
 
     /*bild*/
     #image img {
-        width: 85%;
         margin: 1em 1em 1em 5em;
     }
 
@@ -155,7 +155,7 @@
         width: 100%;
         background-color: #eeeeee;
         display: grid;
-        grid-template-columns: 4, 1fr;
+        grid-template-columns: auto;
     }
 
     header {
@@ -250,7 +250,7 @@
     .grid-container {
         background-color: #eeeeee;
         display: grid;
-        grid-template-columns: 2, 1fr;
+        grid-template-columns: auto;
         width: 100%;
         max-width: 600px;
     }

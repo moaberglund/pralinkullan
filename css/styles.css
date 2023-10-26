@@ -12,6 +12,10 @@
         max-width: 1800px;
     }
 
+    #dropdown {
+        display: none;
+    }
+
     .grid-container {
         background-color: #eeeeee;
         display: grid;
@@ -157,6 +161,10 @@
         background-color: #eeeeee;
         display: grid;
         grid-template-columns: auto;
+    }
+
+    #dropdown {
+        display: none;
     }
 
     header {

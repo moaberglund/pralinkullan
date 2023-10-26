@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pralinkullan</title>
+    <link href="../css/styles.css" type="text/css" rel="stylesheet">
+    <script src="../javascript/main.js" defer></script>
+</head>
+
+<body>
+    <div class="grid-container" id="page">
+        <header>
+            <div class="grid-item-1" id="logo">
+                <a href="../index.html"><img src="../images/pralinkullan-LOGO.png" alt="Pralinkullans logga"></a>
+            </div>
+            <div class="grid-item-2" id="textlogo">
+                <a href="../index.html"><img src="../images/PRALINKULLAN-textlogga.svg" alt="Pralinkullan"></a>
+            </div>
+            <!-- dropdown meny för mobil -->
+            <div id="dropdown">
+                <button onclick="dropDown()" class="dropbutton">I I I</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="../index.html">STARTSIDA</a>
+                    <a href="../praliner/praliner.html">PRALINER</a>
+                    <a href="../om/about.html">OM</a>
+                    <a href="../kontakt/contact.html">KONTAKT</a>
+                </div>
+            </div>
+            <!-- meny för tablet och dator -->
+            <div class="grid-item-3" id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="praliner/praliner.html">PRALINER</a></li>
+                        <li><a href="om/about.html">OM</a></li>
+                        <li><a href="kontakt/contact.html">KONTAKT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="contact-form" id="contact">
+            <h2>Kontakt</h2>
+            <fieldset>
+                <legend>Kontakta Pralinkullan:</legend>
+                <label>Namn:<br>
+                    <input type="text" name="name" /></label><br>
+                <label>Email:<br>
+                    <input type="text" name="email" /></label><br>
+                    <label>Skriv ett meddelande:<br>
+                        <textarea name="comments" cols="50" rows="8">...</textarea>
+
+                    </label>
+            </fieldset>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -150,6 +150,21 @@
         margin: 0.5em 0.5em 0.5em 5em;
     }
 
+    /* PRALINER  */
+
+    .pralin img {
+        width: 40%;
+        max-width: 500px;
+        margin: 10%
+    }
+
+    .pralin p {
+        float: right;
+        background-color: white;
+        margin-top: 10%;
+        padding: 1em;
+    }
+
 
 }
 

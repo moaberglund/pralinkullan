@@ -196,7 +196,7 @@
 
     #instagram img {
         width: 40px;
-        margin-bottom: 100px;
+        margin-bottom: 4%;
     }
 
 
@@ -296,7 +296,6 @@
     }
 
     footer {
-        background-color: rgb(229, 201, 255);
         grid-column: 1/5;
         grid-row: 4/5;
     }
@@ -316,6 +315,41 @@
         margin-top: 6%;
         margin-right: 4%;
         padding: 1em;
+    }
+
+    /*  OM  */
+
+    #pralin-img-1 {
+        display: none;
+    }
+
+    .grid-about {
+        margin-top: 5%;
+    }
+
+    #about-text p {
+        background-color: white;
+        padding: 1em;
+        width: 50%;
+        margin-right: 10%;
+        float: right;
+    }
+
+    #about-img img {
+        width: 20%;
+        max-width: 600px;
+        margin-left: 15%;
+    }
+
+    .float-instagram {
+        margin-left: 15%;
+        margin-top: 40px;
+
+    }
+
+    #instagram img {
+        width: 40px;
+        margin-bottom: 80px;
     }
 
 

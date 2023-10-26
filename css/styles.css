@@ -284,7 +284,9 @@
         position: absolute;
         background-color: rgb(185, 185, 185);
         min-width: 160px;
+        /*stil av att den sticker ut, skugga bakom rutan*/
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        /*för att placera framför annat innehåll på sidan*/
         z-index: 1;
     }
 

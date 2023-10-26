@@ -151,17 +151,21 @@
     }
 
     /* PRALINER  */
+    section {
+        margin-top: 10%;
+    }
 
     .pralin img {
-        width: 40%;
+        width: 35%;
         max-width: 500px;
-        margin: 10%
+        margin: 0% 5% 5% 15%;
     }
 
     .pralin p {
+        width: 30%;
+        margin-right: 5%;
         float: right;
         background-color: white;
-        margin-top: 10%;
         padding: 1em;
     }
 
@@ -303,17 +307,17 @@
     /* PRALINER  */
 
     .pralin img {
-        width: 40%;
+        width: 30%;
         max-width: 500px;
-        margin: 6%
+        margin: 6% 0% 0% 20%;
     }
 
     .pralin p {
         float: right;
         background-color: white;
-        width: 40%;
+        width: 30%;
         margin-top: 6%;
-        margin-right: 4%;
+        margin-right: 10%;
         padding: 1em;
     }
 

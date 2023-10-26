@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pralinkullan</title>
+    <link href="../css/styles.css" type="text/css" rel="stylesheet">
+    <script src="../javascript/main.js" defer></script>
+</head>
+
+<body>
+    <div class="grid-container" id="page">
+        <header>
+            <div class="grid-item-1" id="logo">
+                <a href="../index.html"><img src="../images/pralinkullan-LOGO.png" alt="Pralinkullans logga"></a>
+            </div>
+            <div class="grid-item-2" id="textlogo">
+                <a href="../index.html"><img src="../images/PRALINKULLAN-textlogga.svg" alt="Pralinkullan"></a>
+            </div>
+            <!-- dropdown meny för mobil -->
+            <div id="dropdown">
+                <button onclick="dropDown()" class="dropbutton">I I I</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="../index.html">STARTSIDA</a>
+                    <a href="../praliner/praliner.html">PRALINER</a>
+                    <a href="../om/about.html">OM</a>
+                    <a href="../kontakt/contact.html">KONTAKT</a>
+                </div>
+            </div>
+            <!-- meny för tablet och dator -->
+            <div class="grid-item-3" id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../praliner/praliner.html">PRALINER</a></li>
+                        <li><a href="../om/about.html">OM</a></li>
+                        <li><a href="../kontakt/contact.html">KONTAKT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- sidans "innehåll" -->
+        <section>
+            <article class="pralin" id="pralin-1">
+                <img src="../images/tavlings-pralin.jpg" alt="Chokladpralin i rött och gult">
+                <p>Pralin 1 <br>
+                    Smak av hallon, saffran och pistage</p>
+            </article>
+            <article class="pralin" id="pralin-2">
+                <img src="../images/pask-praliner.jpg" alt="Chokladpraliner i ask">
+                <p>Pralintema Påsk <br>
+                    Olika smaker i tema för påsken!</p>
+            </article>
+            <article class="pralin" id="pralin-3">
+                <img src="../images/fika-praliner.jpg" alt="Chokladpraliner i ask">
+                <p>Pralintema fika <br>
+                    Olika smaker med inspiration av svenskt fika</p>
+            </article>
+
+        </section>
+        <footer>
+            <div class="grid-item-10" id="footer">
+                <p> &copy;Pralinkullan</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

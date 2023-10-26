@@ -272,7 +272,7 @@
     }
 
     header .grid-item-3 {
-        display: inline;
+        display: none;
     }
 
     #video img {

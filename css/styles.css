@@ -428,11 +428,16 @@
 
     /*dropdown knapp*/
     .dropbutton {
-        background-color: rgb(255, 0, 0);
+        position: relative;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        background-color: rgb(0, 0, 0, 0.9);
         color: rgb(255, 255, 255);
         padding: 20px;
+        margin: auto auto 20px 10px;
         font-size: 20px;
         border: none;
+        border-radius: 5px;
         cursor: pointer;
     }
 
@@ -470,7 +475,7 @@
 
     /*ändra färg på länkarna vid hover*/
     .dropdown-content a:hover {
-        background-color: rgb(119, 49, 184);
+        background-color: rgb(255, 171, 122);
     }
 
     /*visa dropdown med hjälp av JavaScript*/
@@ -480,13 +485,12 @@
 
     #logo img {
         max-width: 150px;
-        width: 60%;
-        margin: 10% 25% 10% 25%;
-        grid-column: 1/3;
-        grid-row: 1/2;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 
-    header .grid-item-1 {
+    header {
         grid-column: 1/3;
         grid-row: 1/2;
     }

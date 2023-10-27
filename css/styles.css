@@ -604,5 +604,32 @@
         margin-bottom: 80px;
     }
 
+    /*  KONTAKT  */
+
+    .contact {
+        grid-column: 1/5;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .contact-info {
+        width: 95%;
+        padding: 5px;
+        line-height: 1.5em;
+    }
+
+    fieldset {
+        width: 95%;
+        padding: 15px;
+        line-height: 25px;
+        border-radius: 10px;
+    }
+
+    fieldset input {
+        padding: 5px;
+        margin-top: 5px;
+    }
+
 
 }

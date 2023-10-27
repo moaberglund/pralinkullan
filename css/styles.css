@@ -1,3 +1,4 @@
+/* universella regler för allt innehåll */
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -56,7 +57,7 @@
     #nav li {
         /*ta bort dekor från listelementet*/
         text-decoration: none;
-        /*få listen på rad*/
+        /*få listan på rad*/
         display: inline;
         /*centrera*/
         text-align: center;
@@ -74,6 +75,7 @@
     /*textfärg meny*/
     #nav li a {
         color: white;
+        text-decoration: none;
     }
 
     #video img {
@@ -273,6 +275,10 @@
         font-weight: bold;
         padding: 1%;
         margin: 5%;
+    }
+
+    #nav li a {
+        text-decoration: none;
     }
 
     .grid-item-3 {

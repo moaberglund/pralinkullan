@@ -285,7 +285,7 @@
         margin-left: 25%;
     }
 
-    #video img {
+    #video video {
         width: 70%;
         margin: 0% 15% 2% 15%
     }
@@ -502,7 +502,7 @@
         display: none;
     }
 
-    #video img {
+    #video video {
         width: 80%;
         margin: 10%;
     }

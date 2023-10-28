@@ -3,7 +3,8 @@
 //funktion för dropdown meny
 //tagit hjälp från w3schools
 
-
+/* när användaren klickar på knappen, skifta mellan att 
+visa och dölja innehållet i menyn */
 function dropDown() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
